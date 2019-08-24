@@ -12,8 +12,9 @@
 
     </div>
 
-    <nav class="navbar navbar-expand-md top_nav">
+    <nav class="navbar navbar-expand top_nav">
         <div class="container">
+            <div></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>

@@ -38,7 +38,7 @@
                             nesciunt repellendus consequatur aliquid praesentium, odit explicabo maxime quidem, a ipsum
                             porro asperiores expedita exercitationem, hic autem laboriosam.</p>
                     </div>
-                    <div class="col-md-12 mt-4">
+                    <div class="col-md-12 hero_main_content">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non consequatur cum eveniet nulla
                             saepe. Cupiditate quod quo ab totam expedita labore, aliquam pariatur accusamus beatae ex
                             voluptatum exercitationem nostrum recusandae incidunt quasi. Eaque eligendi doloribus

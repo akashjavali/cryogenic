@@ -616,15 +616,58 @@ img {
   margin: 12px 0;
 }
 
+@media screen and (max-width: 991px) {
+  .top_section .top_bar .top_bar_left h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top_section .top_bar .top_bar_left h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .top_section .top_bar .top_bar_left h1 {
+    font-size: 15px;
+  }
+}
+
 .top_section .top_bar .top_bar_left h2 {
   color: #383838;
   font-size: 25px;
-  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .top_section .top_bar .top_bar_left h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top_section .top_bar .top_bar_left h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .top_section .top_bar .top_bar_left h2 {
+    font-size: 12px;
+  }
 }
 
 .top_section .top_bar .logo {
   width: 100px;
   height: 100px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .top_section .top_bar .logo {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .top_section .top_nav {
@@ -636,6 +679,12 @@ img {
 .top_section .top_nav ul li a {
   padding-left: 0 !important;
   padding-right: 30px !important;
+}
+
+@media screen and (max-width: 575px) {
+  .top_section .top_nav ul li a {
+    padding-right: 15px !important;
+  }
 }
 
 .top_section .top_nav ul li:hover {
@@ -684,6 +733,22 @@ img {
   line-height: 1.2;
 }
 
+@media screen and (max-width: 767px) {
+  .hero .hero_slide_content {
+    margin-top: 15px;
+  }
+}
+
+.hero .hero_main_content {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero .hero_main_content {
+    margin-top: 0;
+  }
+}
+
 .hero p {
   color: #427b94;
   padding-bottom: 20px;
@@ -707,6 +772,28 @@ img {
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.2;
   font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer .footer_top .footer_top_mid {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer .footer_top .footer_top_last {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .footer .footer_top .footer_top_last a {
