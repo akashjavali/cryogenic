@@ -24,3 +24,20 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+
+/* scroll to anchor */
+$(".nav_home").click(function () {
+    $("html, body").animate({
+            scrollTop: $(".hero").offset().top
+        },
+        800
+    );
+});
+$(".nav_contact").click(function () {
+    $("html, body").animate({
+            scrollTop: $(".footer").offset().top
+        },
+        800
+    );
+});
