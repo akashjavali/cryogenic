@@ -7,10 +7,10 @@ $sub_sc: #d79839;
 $black: #000000;
 $white: #ffffff;
 $logo: #347996;
-$nav_bg:#347996;
-$footer_bg:#297e93;
-$bottom_bg:#363636;
-$font:#508799;
+$nav_bg: #347996;
+$footer_bg: #297e93;
+$bottom_bg: #363636;
+$font: #508799;
 
 $fb_color: #2e64c1;
 $tw_color: #8dc4ea;
@@ -88,40 +88,36 @@ $fas_color: #7f8d8d;
 
 //font attach
 @font-face {
-    font-family: 'Roboto-Light';
-    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
 }
-
-;
 
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
-
-;
 
 @font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
 }
-
-;
 
 @font-face {
-    font-family: 'Roboto-Medium';
-    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
 }
 
-;
-
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
 
 //font family
-$rl: 'Roboto-Light';
-$rr: 'Roboto-Regular';
-$rb: 'Roboto-Bold';
-$rm: 'Roboto-Medium';
-
+$ml: "Montserrat-Light";
+$mr: "Montserrat-Regular";
+$mb: "Montserrat-Bold";
+$mm: "Montserrat-Medium";
+$msb: "Montserrat-SemiBold";
 
 // media query
 // $resize: "screen and (max-width: 377px)";
@@ -133,7 +129,6 @@ $otherMobile: "screen and (max-width: 360px)";
 $largescreen: "screen and (min-width: 1920px)";
 $hdmonitor: "screen and (min-width: 1600px)";
 
-
 $mq5b: "screen and (max-width: 565px)";
 $mq7b: "screen and (max-width: 767px)";
 $mq9b: "screen and (max-width: 991px)";
@@ -143,6 +138,5 @@ $mq5a: "screen and (min-width: 566px)";
 $mq7a: "screen and (min-width: 768px)";
 $mq9a: "screen and (min-width: 992px)";
 $mq12a: "screen and (min-width: 1200px)";
-
 
 //variables ends here

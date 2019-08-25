@@ -19,23 +19,28 @@
 ---------------------------------------------------------------- */
 /* 00. Imports */
 @font-face {
-  font-family: 'Roboto-Light';
-  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto-Regular';
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto-Medium';
-  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -527,7 +532,7 @@ template {
 
 body {
   color: black;
-  font-family: "Roboto-Regular";
+  font-family: "Montserrat-Regular";
   font-size: 14px;
 }
 
@@ -537,14 +542,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto-Bold";
+  font-family: "Montserrat-Bold";
 }
 
 p,
 a,
 span,
 a:hover {
-  font-family: "Roboto-Regular";
+  font-family: "Montserrat-Regular";
   color: inherit;
   text-decoration: none;
 }
