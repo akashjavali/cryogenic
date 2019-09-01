@@ -710,11 +710,13 @@ img {
 .top_section .top_nav ul li a {
   padding-left: 0 !important;
   padding-right: 30px !important;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 575px) {
   .top_section .top_nav ul li a {
     padding-right: 15px !important;
+    font-size: 14px;
   }
 }
 
@@ -784,6 +786,204 @@ img {
   color: #427b94;
   padding-bottom: 20px;
   line-height: 1.2;
+  font-size: 16px;
+}
+
+.research .research_content {
+  margin-top: 5%;
+}
+
+.research .research_content ul {
+  list-style: none;
+}
+
+.research .research_content ul li {
+  margin: 0;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  position: relative;
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+.research .research_content ul li:after {
+  content: '';
+  height: .5em;
+  width: .5em;
+  background: #363636;
+  display: block;
+  position: absolute;
+  top: .25em;
+  left: 0;
+}
+
+.people_heading {
+  background: #e7e7e7;
+  text-align: center;
+  padding: 22px 0;
+  color: #508799;
+  font-size: 28px;
+  margin-bottom: 5%;
+}
+
+.people {
+  padding: 5% 0;
+}
+
+.people .people_content_1,
+.people .people_content_2 {
+  margin-bottom: 8%;
+}
+
+.people .people_content_1 .people_info,
+.people .people_content_2 .people_info {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .people .people_content_1 .people_info,
+  .people .people_content_2 .people_info {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 0;
+  }
+}
+
+.people .people_content_1 .people_info h5,
+.people .people_content_2 .people_info h5 {
+  color: #508799;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: "Montserrat-Bold";
+}
+
+.people .people_content_1 .people_info h6,
+.people .people_content_2 .people_info h6 {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 10px;
+}
+
+.people .people_content_1 .people_info p,
+.people .people_content_2 .people_info p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+  line-height: 1.5;
+}
+
+.people .people_content_1 .people_info .people_contact_info,
+.people .people_content_2 .people_info .people_contact_info {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.people .people_content_1 .people_info .people_contact_info .info_right,
+.people .people_content_2 .people_info .people_contact_info .info_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.people .people_content_1 .people_info .people_contact_info .info_right button,
+.people .people_content_2 .people_info .people_contact_info .info_right button {
+  padding: 8px 28px;
+  background: #297d96;
+  color: white;
+}
+
+.people .people_faculties {
+  padding-bottom: 5%;
+}
+
+.people .people_faculties .facultie_wrapper {
+  text-align: center;
+  padding: 30px;
+  background: #ddeaee;
+}
+
+@media screen and (max-width: 1200px) {
+  .people .people_faculties .facultie_wrapper {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .people .people_faculties .facultie_wrapper {
+    margin-right: 15px;
+  }
+}
+
+.people .people_faculties .facultie_wrapper h5 {
+  color: #508799;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.people .people_faculties .facultie_wrapper h6 {
+  color: #787878;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 12%;
+}
+
+.people .people_retired {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .people .people_retired .facultie_wrapper {
+    margin-bottom: 5%;
+  }
+}
+
+.people .people_retired h5 {
+  color: #508799;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.people .non_teaching ul {
+  list-style: none;
+}
+
+.people .non_teaching ul li {
+  margin: 0;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+  position: relative;
+  color: #508799;
+  font-size: 20px;
+  font-family: "Montserrat-Bold";
+}
+
+@media screen and (max-width: 575px) {
+  .people .non_teaching ul li {
+    font-size: 14px;
+  }
+}
+
+.people .non_teaching ul li:after {
+  content: '';
+  height: .5em;
+  width: .5em;
+  background: #363636;
+  display: block;
+  position: absolute;
+  top: .25em;
+  left: 0;
 }
 
 .footer .footer_top {
@@ -810,6 +1010,10 @@ img {
     margin: 20px 0;
     text-align: center;
   }
+}
+
+.footer .footer_top .footer_top_last {
+  font-size: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -850,6 +1054,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   padding: 12px;
+  font-size: 16px;
 }
 
 /* All Styles ends Here */
