@@ -1021,6 +1021,14 @@ img {
   margin-bottom: 10px;
 }
 
+.faculties_moreinfo ul li {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  list-style: disc;
+  margin-left: 20px;
+}
+
 .faculties_moreinfo address {
   margin-bottom: 20px;
 }
