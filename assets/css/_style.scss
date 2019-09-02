@@ -286,6 +286,7 @@
         }
     }
 
+
     .people_retired {
         text-align: center;
         padding-bottom: 5%;
@@ -334,6 +335,93 @@
         }
     }
 }
+
+
+.faculties_moreinfo {
+    padding: 2% 0;
+
+    h2 {
+        color: $font;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        font-family: $mm;
+    }
+
+    h6 {
+        font-family: $mr;
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    h4 {
+        color: $font;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    address {
+        margin-bottom: 20px;
+
+        p {
+            font-size: 18px;
+            line-height: 1.4;
+            margin-bottom: 0;
+        }
+
+        >a {
+            font-size: 18px;
+            color: $font;
+            font-family: $mb;
+        }
+    }
+
+    ul {
+        margin-bottom: 20px;
+
+        li {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .lab_info {
+        margin-bottom: 20px;
+
+        h4 {
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            font-family: $mm;
+            margin-top: 15px;
+        }
+
+        a {
+            font-size: 18px;
+            font-family: $mb;
+            color: $font;
+            margin-bottom: 5px;
+            display: block;
+        }
+    }
+}
+
+
+
 
 .footer {
     .footer_top {
