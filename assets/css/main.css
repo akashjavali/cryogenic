@@ -990,6 +990,11 @@ img {
   padding: 2% 0;
 }
 
+.faculties_moreinfo img {
+  width: 260px;
+  margin-bottom: 25px;
+}
+
 .faculties_moreinfo h2 {
   color: #508799;
   font-size: 25px;

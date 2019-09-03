@@ -340,6 +340,11 @@
 .faculties_moreinfo {
     padding: 2% 0;
 
+    img {
+        width: 260px;
+        margin-bottom: 25px;
+    }
+
     h2 {
         color: $font;
         font-size: 25px;
